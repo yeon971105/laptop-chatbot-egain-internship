@@ -1,0 +1,39 @@
+flowchart TD
+
+Start[Start: Welcome user]
+Budget[Ask Budget: 1, 2, or 3?]
+BudgetValid{Valid Input?}
+BudgetRetry[Creative Error Message: Re-prompt or assume default]
+
+Usage[Ask Usage: 1, 2, or 3?]
+UsageValid{Valid Input?}
+UsageRetry[Creative Error Message: Re-prompt or assume default]
+
+Portability[Ask Portability: 'yes' or 'no'?]
+PortabilityValid{Valid Input?}
+PortabilityRetry[Creative Error Message: Re-prompt]
+
+DecisionLogic[Evaluate Choices]
+
+Recommendation[Show Laptop Recommendation]
+
+End[End: Friendly goodbye]
+
+Start --> Budget
+Budget --> BudgetValid
+BudgetValid -->|Yes| Usage
+BudgetValid -->|No| BudgetRetry
+BudgetRetry --> Budget
+
+Usage --> UsageValid
+UsageValid -->|Yes| Portability
+UsageValid -->|No| UsageRetry
+UsageRetry --> Usage
+
+Portability --> PortabilityValid
+PortabilityValid -->|Yes| DecisionLogic
+PortabilityValid -->|No| PortabilityRetry
+PortabilityRetry --> Portability
+
+DecisionLogic --> Recommendation
+Recommendation --> End
