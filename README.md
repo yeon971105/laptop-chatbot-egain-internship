@@ -52,15 +52,15 @@ For budget and usage questions, invalid inputs trigger a friendly fallback with 
 
 ##  Screenshots / Example Output
 
-###  Terminal Output
+### Chatbot Screenshot
 
-```
 ![Chatbot Screenshot](assets/chatbot-screenshot.png)
 
-```
----
+### Terminal Output
 
-## 📁 Project Files
+
+
+##  Project Files
 
 ```
 laptop-whisperer/
@@ -71,7 +71,7 @@ laptop-whisperer/
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 - Integrate NLP for natural conversation handling  
 - Expand the laptop dataset using APIs or web scraping  
@@ -80,7 +80,7 @@ laptop-whisperer/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Jewon Yeon**  
 Data Science Student @ San Jose State University  
