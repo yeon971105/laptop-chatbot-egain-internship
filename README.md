@@ -55,7 +55,7 @@ For budget and usage questions, invalid inputs trigger a friendly fallback with 
 ###  Terminal Output
 
 ```
-![Screenshot 2025-04-02 at 5 13 33 PM](https://github.com/user-attachments/assets/dbf514b6-bbcd-4714-b684-5cf6c510f1da)
+!assets/Screenshot 2025-04-02 at 5.16.01 PM.png
 ```
 ---
 
