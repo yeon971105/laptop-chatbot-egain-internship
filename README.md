@@ -55,7 +55,8 @@ For budget and usage questions, invalid inputs trigger a friendly fallback with 
 ###  Terminal Output
 
 ```
-![Chatbot Screenshot](assets/Screenshot%202025-04-02%20at%205.16.01%E2%80%AFPM.png)
+![Chatbot Screenshot](assets/chatbot-screenshot.png)
+
 ```
 ---
 
@@ -64,7 +65,7 @@ For budget and usage questions, invalid inputs trigger a friendly fallback with 
 ```
 laptop-whisperer/
 ├── prototype.py       # Main chatbot script
-├── screenshot.png     # (Optional) Terminal or code screenshot
+├── assets
 └── README.md          # This file
 ```
 
