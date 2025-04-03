@@ -1,6 +1,6 @@
-Python 3.12.6
-```
+## Run the chatbot:
 
+```bash
 If not installed, download Python from: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 ---
@@ -12,11 +12,7 @@ If not installed, download Python from: [https://www.python.org/downloads/](http
 ```bash
 git clone https://github.com/your-username/laptop-whisperer.git
 cd laptop-whisperer
-```
 
-2. Run the chatbot:
-
-```bash
 python3 prototype.py
 ```
 
@@ -45,7 +41,7 @@ This chatbot features two types of error handling:
 ###  Re-prompting  
 For yes/no portability input, the chatbot loops until a valid answer is received.
 
-### 🛠 Default Assumptions  
+###  Default Assumptions  
 For budget and usage questions, invalid inputs trigger a friendly fallback with a default selection to keep the experience smooth.
 
 ---
@@ -57,8 +53,6 @@ For budget and usage questions, invalid inputs trigger a friendly fallback with 
 ![Chatbot Screenshot](assets/chatbot-screenshot.png)
 
 ### Terminal Output
-
-
 
 ##  Project Files
 
